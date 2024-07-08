@@ -8,7 +8,7 @@ from catboost import CatBoostClassifier, Pool
 import joblib
 
 # Path of the trained model and data
-MODEL_PATH = "../model/catboost_model.cbm" 
+MODEL_PATH = "./model/catboost_model.cbm" 
 DATA_PATH = "../data/churn_data_regulated.parquet"
 
 st.set_page_config(page_title="Churn Project")
